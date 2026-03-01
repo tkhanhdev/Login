@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 :root {
+  --primary-color: #2d6b5c;
+  --text-gray: #9ba3b9;
+  --bg-color: #f2f3f6;
+  --shadow-dark: rgba(163, 177, 198, .6);
+  --shadow-light: rgba(255,  255,  255, .8);
 }
 
 html {
@@ -257,6 +262,7 @@ a {
 }
 
 .login__form .login__btn:hover {
+  /* filter: hue-rotate(45deg); */
   animation: animation_btn 2s ease infinite;
 }
 
@@ -314,7 +320,7 @@ a {
   margin-right: 15px;
 }
 .login__divider::after {
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 /* login__social */
