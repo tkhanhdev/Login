@@ -1,0 +1,14 @@
+Chú ý: 
+
+mặc định thẻ a là thẻ inline element
+==> ko chấp nhận w, h, mt / bottom, hay pt / bottom
+
+cách đơn giản : ép nó thành như 1 khối : display: block / display: inline-block;
+
+có thể dùng thẻ a như 1 thẻ cha / chứa ( biến thành 1 cái khung flex để căn chỉnh các nội dung bên trong )
+
+CÁC TÍNH CHẤT THẺ A THƯỜNG DÙNG ( ĐỦ ĐỂ SÀI ) 
+            " text-direction ", " color " // bỏ gạch chân (none)
+            trạng thái(pseudo) : ":hover", ":active", ":visited"     // hiệu ứng khi kích chuột hay đã kích
+            bố cục nhanh : display: flex;
+            kích thước: display: inline-block  // để chỉnh sửa được w, h, p, ...
